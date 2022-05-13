@@ -1,3 +1,4 @@
+using System;
 namespace tabuleiro {
     class Posicao {
         public int linha { get; set; }

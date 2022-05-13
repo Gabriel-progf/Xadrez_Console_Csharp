@@ -1,3 +1,4 @@
+using System;
 
 namespace tabuleiro{
     class Peca {
@@ -12,6 +13,7 @@ namespace tabuleiro{
             this.tab = tab;
             this.cor = cor;
             this.qteMovimentos = 0;
-        } 
+        }
+ 
     }
 }
