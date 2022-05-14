@@ -16,7 +16,7 @@ namespace tabuleiro {
         }
         public Peca peca(Posicao pos){
             return pecas[pos.linha, pos.coluna];
-        }
+}
 
         public bool existePeca(Posicao pos){
             validarPosicao(pos);
