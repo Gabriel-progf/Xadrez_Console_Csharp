@@ -29,7 +29,6 @@ namespace tabuleiro {
             pecas[pos.linha, pos.coluna] = p;
             p.posicao = pos;
 
-
         }
 
         public Peca retirarPeca(Posicao pos){
