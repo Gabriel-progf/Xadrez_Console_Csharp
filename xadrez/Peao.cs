@@ -41,7 +41,7 @@ namespace xadrez {
                if(tab.posicaoValida(pos) && existeInimigo(pos)){
                    mat[pos.linha, pos.coluna] = true;
                }
-               pos.definirValores(posicao.linha -1, posicao.coluna+2);
+               pos.definirValores(posicao.linha -1, posicao.coluna+1);
                if(tab.posicaoValida(pos) && existeInimigo(pos)){
                    mat[pos.linha, pos.coluna] = true;
                }
